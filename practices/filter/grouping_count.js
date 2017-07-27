@@ -4,7 +4,7 @@ function grouping_count(collection) {
   let result_Array = {};
 
   let result = Array.from(new Set(collection));
-  result.filter(item => {
+  result.forEach(item => {
     let num = 0;
     collection.forEach(data => {
       if (data == item) {
