@@ -1,7 +1,6 @@
 'use strict';
 
 function choose_no_common_elements(collection_a, collection_b) {
-
   let result =[];
 
   collection_a.forEach(item =>{
