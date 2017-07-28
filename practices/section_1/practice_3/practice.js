@@ -1,5 +1,15 @@
 function collect_same_elements(collection_a, object_b) {
-  //在这里写入代码
+  var result = [];
+
+  collection_a.forEach(item => {
+    object_b.value.forEach(data => {
+      if (item === data) {
+        result.push(item)
+      }
+    })
+  })
+
+  return result;
 }
 
 module.exports = collect_same_elements;
