@@ -7,7 +7,6 @@ function create_updated_collection(collection_a, object_b) {
     })
   })
 
-
   return collection_a;
 }
 
