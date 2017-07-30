@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 function collect_last_element(collection) {
   
